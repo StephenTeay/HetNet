@@ -1,0 +1,13 @@
+algorithm,ho_count,ping_pong_count,ping_pong_rate,unnecessary_ho_rate,call_drop_count,call_drop_rate,mean_sinr_db,run,scenario
+fis,0,0,0.0,0.0,0,0.0,6.585,0,pedestrian
+fis,0,0,0.0,0.0,0,0.0,-0.183,1,pedestrian
+baseline,34,26,0.7647,0.0,0,0.0,5.855,0,pedestrian
+baseline,14,8,0.5714,0.0,0,0.0,-0.317,1,pedestrian
+fis,0,0,0.0,0.0,0,0.0,5.092,0,slow_vehicle
+fis,0,0,0.0,0.0,0,0.0,0.608,1,slow_vehicle
+baseline,45,37,0.8222,0.0,0,0.0,4.643,0,slow_vehicle
+baseline,16,12,0.75,0.0,0,0.0,3.363,1,slow_vehicle
+fis,0,0,0.0,0.0,0,0.0,7.763,0,fast_vehicle
+fis,31,29,0.9355,0.0,0,0.0,-3.684,1,fast_vehicle
+baseline,28,21,0.75,0.0,0,0.0,7.321,0,fast_vehicle
+baseline,15,11,0.7333,0.0,0,0.0,5.14,1,fast_vehicle

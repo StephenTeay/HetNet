@@ -1,0 +1,16 @@
+scenario,kpi,fis_mean,baseline_mean,p_value,effect_size_r,significant,direction
+pedestrian,ho_count,0.0,24.0,0.220671,1.0,False,FIS lower
+pedestrian,ping_pong_rate,0.0,0.668,0.220671,1.0,False,FIS lower
+pedestrian,unnecessary_ho_rate,0.0,0.0,1.0,0.0,False,FIS higher
+pedestrian,call_drop_count,0.0,0.0,1.0,0.0,False,FIS higher
+pedestrian,mean_sinr_db,3.201,2.769,0.666667,-0.5,False,FIS higher
+slow_vehicle,ho_count,0.0,30.5,0.220671,1.0,False,FIS lower
+slow_vehicle,ping_pong_rate,0.0,0.7861,0.220671,1.0,False,FIS lower
+slow_vehicle,unnecessary_ho_rate,0.0,0.0,1.0,0.0,False,FIS higher
+slow_vehicle,call_drop_count,0.0,0.0,1.0,0.0,False,FIS higher
+slow_vehicle,mean_sinr_db,2.85,4.003,1.0,0.0,False,FIS lower
+fast_vehicle,ho_count,15.5,21.5,1.0,0.0,False,FIS lower
+fast_vehicle,ping_pong_rate,0.4678,0.7416,1.0,0.0,False,FIS lower
+fast_vehicle,unnecessary_ho_rate,0.0,0.0,1.0,0.0,False,FIS higher
+fast_vehicle,call_drop_count,0.0,0.0,1.0,0.0,False,FIS higher
+fast_vehicle,mean_sinr_db,2.0395,6.2305,1.0,0.0,False,FIS lower

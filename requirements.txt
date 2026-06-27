@@ -1,0 +1,21 @@
+# HetNet Fuzzy Handover Optimization
+# Decision 1.8: pinned versions for reproducibility
+# Decision 1.9: scikit-fuzzy from git (0.4.2 breaks on Python 3.12)
+
+# Core scientific stack
+numpy==1.26.4
+scipy==1.13.0
+pandas==2.2.2
+matplotlib==3.8.4
+
+# Fuzzy logic engine — must install from git, NOT PyPI 0.4.2
+git+https://github.com/scikit-fuzzy/scikit-fuzzy.git
+
+# Discrete-event simulation
+simpy==4.1.1
+
+# Dashboard
+streamlit==1.38.0
+
+# Testing (not needed on cloud but harmless)
+pytest==8.2.0
